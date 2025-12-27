@@ -1,0 +1,3 @@
+Conway2P is a two-player game based off of Conway's game of life. Player one runs the server program, and player two runs the client program and connects to them. The two are then pitted against each other in a *death match.*
+
+Between rounds, each player may place cells on the board with no knowledge of where the opponent is placing cells. Once both players are finished, the board updates according to a two-color variant of Conway's Game of Life. Whichever player ends with the most cells alive of their color when the board stops updating wins the round, and their opponent gets bonus cells to place next round to try to get ahead. Play continues until some player wins three rounds.
